@@ -8,8 +8,9 @@
 import Foundation
 
 class EmojiViewModel: ObservableObject {
-    static let emojis = ["😀", "😇", "😂", "🎃", "😼", "😪", "🤢"]
-    
+    static let emojis = ["😀", "😇", "😂", "🎃", "😼", "😪"]
+//    static let emojis = ["😀", "😇"]
+                         
     @Published private var model = MemoryGameModel<String>(numberOfPairsOfCards: emojis.count) { index in
         emojis[index]
         

@@ -13,6 +13,8 @@
 		CE88FEA52B6C902500FC15CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88FEA42B6C902500FC15CF /* ContentView.swift */; };
 		CE88FEA72B6C902600FC15CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE88FEA62B6C902600FC15CF /* Assets.xcassets */; };
 		CE88FEAA2B6C902600FC15CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE88FEA92B6C902600FC15CF /* Preview Assets.xcassets */; };
+		CE9E48E02B75CE7600BC0A9A /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E48DF2B75CE7600BC0A9A /* SwiftUIView.swift */; };
+		CE9E48E22B75D32600BC0A9A /* AspectVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E48E12B75D32600BC0A9A /* AspectVGrid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		CE88FEA42B6C902500FC15CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE88FEA62B6C902600FC15CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE88FEA92B6C902600FC15CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE9E48DF2B75CE7600BC0A9A /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		CE9E48E12B75D32600BC0A9A /* AspectVGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspectVGrid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 		CE88FEA12B6C902500FC15CF /* MemoryGame */ = {
 			isa = PBXGroup;
 			children = (
+				CE9E48E12B75D32600BC0A9A /* AspectVGrid.swift */,
+				CE9E48DF2B75CE7600BC0A9A /* SwiftUIView.swift */,
 				CE88FEA22B6C902500FC15CF /* MemoryGameApp.swift */,
 				CE88FEA42B6C902500FC15CF /* ContentView.swift */,
 				CE88FEA62B6C902600FC15CF /* Assets.xcassets */,
@@ -145,8 +151,10 @@
 			files = (
 				CE0B37B22B6CA3B1006981E7 /* MomoryGameModel.swift in Sources */,
 				CE88FEA52B6C902500FC15CF /* ContentView.swift in Sources */,
+				CE9E48E22B75D32600BC0A9A /* AspectVGrid.swift in Sources */,
 				CE88FEA32B6C902500FC15CF /* MemoryGameApp.swift in Sources */,
 				CE0B37B42B6CA727006981E7 /* EmojiViewModel.swift in Sources */,
+				CE9E48E02B75CE7600BC0A9A /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
